@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+botacademy/__init__.py
+botacademy/__main__.py
+botacademy/bot.py
+botacademy.egg-info/PKG-INFO
+botacademy.egg-info/SOURCES.txt
+botacademy.egg-info/dependency_links.txt
+botacademy.egg-info/requires.txt
+botacademy.egg-info/top_level.txt
+botacademy/resources/start.png
