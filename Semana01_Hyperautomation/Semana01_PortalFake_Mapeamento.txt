@@ -1,0 +1,33 @@
+1. Qual é o objetivo do processo? 
+
+R- O Portal Fake tem como objetivo cadastrar pessoas com informações cruciais como nome, telefone, endereço, e-mail, situação (ativo, pendente, bloqueado) no sistema, permitindo também visualizações e edições posteriores, também permitindo exportar os nomes cadastrados num arquivo CSV e/ou JSON, este último também podendo ser importado para o portal, caso seja necessário.
+
+2. Como funciona o processo atualmente? (AS-IS) 
+
+R- O usuário entra no portal, clica na opção de Novo Cadastro (caso não tenha, se tiver ele pode pesquisar no campo de busca), preenche os dados (Nome, sobrenome, CPF, telefone, e-mail, endereço), clicar em Salvar, se estiver tudo correto, o sistema valida as informações e salva o novo nome cadastrado.  
+
+3. Como esse processo poderia ser melhorado? (TO-BE) 
+
+R- o processo é relativamente demorado dependendo da quantidade de nomes para cadastrar, podendo ser substituído por uma automação que cadastra os nomes automaticamente, reduzindo também a taxa de erros possíveis.
+
+4. Qual o volume do processo?
+
+R- O portal permite centenas de cadastros, não foi encontrado um limite até o momento.
+
+5. Qual a frequência do processo? 
+
+R- numa situação hipotética de uma empresa de benefícios, seriam cadastrados dezenas ou até centenas de nomes por dia, podendo chegar a milhares numa semana.
+
+6. Existem regras de negócio? 
+
+R- Sim. O CPF não permite menos de 11 números, o e-mail precisa ser válido (precisa ter o '.com' e semelhantes), também não permite a repetição de CPF.
+
+7. O processo é viável para automação? 
+
+R- Sim, a automação dos cadastros permitiria uma maior rapidez e eficiência na hora de inserir os nomes no sistema.
+
+8. Existe ROI (Retorno sobre Investimento)? 
+
+R- Automatizar o processo reduziria erros na hora do cadastro, a rapidez economizaria tempo do usuário o permitindo se focar em outras atividades, aumentando sua produtividade.
+
+
