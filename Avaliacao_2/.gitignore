@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+
+src/credentials.json
+src/token.json
+
+src/Downloads/
+src/Documentos_OK/
+src/Documentos_Pendentes/
+
+.env
